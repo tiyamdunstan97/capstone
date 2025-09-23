@@ -1,5 +1,5 @@
 body {
-    background-color: blanchedalmond;
+    background-color:" blanchedalmond";
     color: rgb(148, 96, 41);
     font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
     font-weight: "800";
@@ -13,7 +13,7 @@ h1 {
 h2 {
     color: rgb(99, 67, 18);
     font-family: "zalando sans expanded", "arial", "helvetica";
-    font-size: larger;
+    font-size: "larger";
     font-weight: 800;
-    font-style: italic;
+    font-style: "italic";
 }
