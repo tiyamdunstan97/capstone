@@ -24,59 +24,50 @@ body {
      height: 10%;
      
 }
-        h2 {
-         color: rgb(186, 112, 0);
-          font-family: "zalando sans expanded", "arial", "helvetica";
-          font-size: "26px";
-          font-weight: 800;
-         font-style: oblique; 
-        text-align: center;
-        border-bottom: 3px solid tan;
+h2 {
+    color: rgb(186, 112, 0);
+    font-family: "zalando sans expanded", "arial", "helvetica";
+    font-size: "26px";
+    font-weight: 800;
+    font-style: oblique; 
+    text-align: center;
+    border-bottom: 3px solid tan;
 
     }
          
-            h3{
-             color: rgb(186, 112, 0);
-             font-family: "zalando sans expanded", "arial", "helvetica";
-             font-size: "26px";
-             font-weight: 800;
-             font-style: oblique; 
-            text-align: center;
-            border-radius: 3px solid tan;
-        }
-         
 
-                footer{
-                    color: rgb(186, 112, 0);
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    font-size: 16px;
-                    font-weight: 200;
-                    font-style: italic;
-                    line-height: normal;
-                    text-align: center; }
+footer{
+    color: rgb(186, 112, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: normal;
+    text-align: center; }
 
 
-                        a:hover{
-                            color: black;
-                            text-decoration: underline;
-                        }
-                        a{
-                            font-family: "Economica", sans-serif;
-                             font-weight: 400;
-                            font-style: italic;
-                            color:rgb(186, 112, 0) ;
-                        }
+a:hover{
+    color: black;
+    text-decoration: underline;}
+                        
+a{
+    font-family: "Economica", sans-serif;
+     font-weight: 400;
+     font-style: italic;
+    color:rgb(186, 112, 0) ;}
+                        
 
-                        .oat{
-                             color:rgb(186, 112, 0);
-                        font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
-                        font-size: 19px;
-                        font-weight: 700;
-                        font-style: normal;
+.oat{
+        color:rgb(186, 112, 0);
+        font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
+        font-size: 19px;
+        font-weight: 700;
+        font-style: normal;}
 
-                        }
-                        a:active{color: rgb(186, 112, 0);}
-                        a:visited{color: rgb(99, 67, 18);}
+ a:active{color: rgb(186, 112, 0);}
+                        
+ a:visited{color: rgb(99, 67, 18);}
+
 img{
     margin: 20px;
     border: 15px;
