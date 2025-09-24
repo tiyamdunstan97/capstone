@@ -1,3 +1,7 @@
+*{
+    font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
+
+}
 body {
     background-color: #f5e2c6;
     color: rgb(148, 96, 41);
@@ -14,8 +18,11 @@ body {
      font-size: "70px";
      font-style: bolder;
      text-align: center;
-
-    
+     margin-bottom: 0px 0px 60px 0px;
+     border: 10px solid tan;
+     width: 95%;
+     height: 10%;
+     
 }
         h2 {
          color: rgb(186, 112, 0);
@@ -23,7 +30,10 @@ body {
           font-size: "26px";
           font-weight: 800;
          font-style: oblique; 
-        text-align: justify;}
+        text-align: center;
+        border-bottom: 3px solid tan;
+
+    }
          
             h3{
              color: rgb(186, 112, 0);
@@ -31,7 +41,9 @@ body {
              font-size: "26px";
              font-weight: 800;
              font-style: oblique; 
-            text-align: justify;}
+            text-align: center;
+            border-radius: 3px solid tan;
+        }
          
 
                 footer{
@@ -43,12 +55,6 @@ body {
                     line-height: normal;
                     text-align: center; }
 
-                    section p ol{
-                        color:rgb(186, 112, 0);
-                        font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
-                        font-size: 14px
-                        ;
-                    }
 
                         a:hover{
                             color: black;
@@ -61,7 +67,7 @@ body {
                             color:rgb(186, 112, 0) ;
                         }
 
-                        #oat-link{
+                        .oat{
                              color:rgb(186, 112, 0);
                         font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
                         font-size: 19px;
@@ -71,11 +77,30 @@ body {
                         }
                         a:active{color: rgb(186, 112, 0);}
                         a:visited{color: rgb(99, 67, 18);}
+img{
+    margin: 20px;
+    border: 15px;
+    padding-left: 35%;
+    padding-right: 35%;
+    background-color: rgb(247, 198, 125);
+    border-color: rgb(247, 198, 125);
 
-                        ol ul li{
-                              color: rgb(197, 128, 56);
-                             font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
-                             font-weight: "300";
-                             font-size: "14px";
-                             font-style: normal;
-                        }
+}
+                        
+.oatmilk {
+    border-top:6px solid tan;
+    margin-top: 3;
+    padding: 3%;
+  
+
+}
+#oat-link{
+
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    margin: 2%;
+    padding-left: 0%;
+    border-bottom: 2px dashed tan ;
+
+}
