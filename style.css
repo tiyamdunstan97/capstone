@@ -1,15 +1,20 @@
 *{
-    font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
-
+ background-image: ;   font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
+ background-image: url(./images/beige.jpg);
+ width: 900;
+ height: 900;
 }
 body {
     background-color: #f5e2c6;
-    color: rgb(148, 96, 41);
+    color: rgb(121, 77, 31);
     font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
-    font-weight: "500";
-    font-size: "16px";
+    font-weight: "700";
+    font-size: "24px";
     font-style: normal;
     text-align: justify;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    
 }
     h1 {
       color: rgb(186, 112, 0);
@@ -23,6 +28,7 @@ body {
      width: 95%;
      height: 10%;
      
+   
 }
 h2 {
     color: rgb(186, 112, 0);
@@ -34,8 +40,13 @@ h2 {
     border-bottom: 3px solid tan;
 
     }
+    h3{
+        font-size: xx-large;
+        font-weight: 800;
+        border-top: 2px solid tan;
+        border-bottom: 3px solid tan;
+    }
          
-
 footer{
     color: rgb(186, 112, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -43,8 +54,10 @@ footer{
     font-weight: 200;
     font-style: italic;
     line-height: normal;
-    text-align: center; }
-
+    text-align: center; 
+    border-top: 5px solid rgb(186, 112, 0);
+    line-height: 1.8;
+}
 
 a:hover{
     color: black;
@@ -56,7 +69,6 @@ a{
      font-style: italic;
     color:rgb(186, 112, 0) ;}
                         
-
 .oat{
         color:rgb(186, 112, 0);
         font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
@@ -69,29 +81,69 @@ a{
  a:visited{color: rgb(99, 67, 18);}
 
 img{
-    margin: 20px;
-    border: 15px;
-    padding-left: 35%;
-    padding-right: 35%;
+   height: 400px;
+   width: 350px;
+   /*padding-left: 55%;*/
     background-color: rgb(247, 198, 125);
     border-color: rgb(247, 198, 125);
 
+    /*position:sticky;*/
+
+
 }
+#oat-link{ 
+        color:rgb(186, 112, 0);
+        font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
+        font-size: 19px;
+        font-weight: 700;
+        font-style: normal;}
+
+#home{color:rgb(186, 112, 0);
+        font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
+        font-size: 25px;
+        font-weight: 700;
+        font-style: normal;
+   
+    }
+#home2 {color:rgb(186, 112, 0);
+        font-family:"Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif"; 
+        font-size: 25px;
+        font-weight: 700;
+        font-style: normal;}
+    
                         
 .oatmilk {
     border-top:6px solid tan;
     margin-top: 3;
     padding: 3%;
-  
-
 }
-#oat-link{
 
-    font-size: 20px;
-    font-weight: bolder;
-    font-style: oblique;
-    margin: 2%;
-    padding-left: 0%;
-    border-bottom: 2px dashed tan ;
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
 
+.img-tractor{
+    background-image: url(./images/tractor.jpg); alt:" photo of beige and brown field with tractor plowing";
+    width: 500px;
+    height: 590px;
+    border: 5px solid rgb(186, 112, 0);
+    margin-right: 200px;
+    padding-bottom: 5%;
+    position: static;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.cookie{
+    justify-content: flex-start;
+}
+
+.flex-image{
+    margin-left: 150px;
+}
+
+.cereal{
+    margin-left: 500px;
 }
