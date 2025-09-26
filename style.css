@@ -1,28 +1,29 @@
 *{
- background-image: ;   font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
+ font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
  background-image: url(./images/beige.jpg);
- width: 900;
- height: 900;
+ width:900;
+ height:900;
 }
 body {
     background-color: #f5e2c6;
     color: rgb(121, 77, 31);
     font-family: "Zalando Sans Expanded", "Arial", "Helvetica", "sans-serif";
-    font-weight: "700";
-    font-size: "24px";
+    font-weight: 500;
+    font-size: 16px;
     font-style: normal;
     text-align: justify;
     letter-spacing: 3px;
-    line-height: 1.2;
+    line-height: 2.0;
+    text-indent: 25px;
     
 }
     h1 {
       color: rgb(186, 112, 0);
       font-family: "zalando sans expanded", "arial", "helvetica";
-    font-weight: "900";
-     font-size: "70px";
-     font-style: bolder;
-     text-align: center;
+    font-weight: 700;
+     font-size: 50px;
+     font-style:normal;
+     text-align:center;
      margin-bottom: 0px 0px 60px 0px;
      border: 10px solid tan;
      width: 95%;
@@ -33,11 +34,12 @@ body {
 h2 {
     color: rgb(186, 112, 0);
     font-family: "zalando sans expanded", "arial", "helvetica";
-    font-size: "26px";
+    font-size: 26px;
     font-weight: 800;
     font-style: oblique; 
     text-align: center;
     border-bottom: 3px solid tan;
+    text-indent: 25px;
 
     }
     h3{
@@ -55,8 +57,9 @@ footer{
     font-style: italic;
     line-height: normal;
     text-align: center; 
-    border-top: 5px solid rgb(186, 112, 0);
-    line-height: 1.8;
+    border: 5px solid rgb(186, 112, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a:hover{
@@ -145,5 +148,5 @@ img{
 }
 
 .cereal{
-    margin-left: 500px;
+    margin-left: 420px;
 }
